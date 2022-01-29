@@ -1,0 +1,111 @@
+> findFreqTerms(dtm, lowfreq = 40)
+  [1] "america"            "bank"               "annual"             "report"            
+  [5] "growth"             "performance"        "responsible"        "business"          
+  [9] "consumer"           "small"              "management"         "wealth"            
+ [13] "banking"            "communities"        "financial"          "making"            
+ [17] "market"             "global"             "markets"            "economic"          
+ [21] "one"                "work"               "development"        "employee"          
+ [25] "teammates"          "end"                "total"              "funding"           
+ [29] "capital"            "across"             "clients"            "serve"             
+ [33] "shareholders"       "company"            "made"               "share"             
+ [37] "year"               "billion"            "common"             "dividends"         
+ [41] "earnings"           "impairment"         "including"          "increased"         
+ [45] "issued"             "new"                "operating"          "outstanding"       
+ [49] "per"                "principles"         "required"           "results"           
+ [53] "shares"             "will"               "years"              "change"            
+ [57] "liquidity"          "make"               "products"           "also"              
+ [61] "can"                "cost"               "customers"          "preferred"         
+ [65] "risk"               "see"                "stock"              "well"              
+ [69] "expense"            "included"           "income"             "net"               
+ [73] "noninterest"        "related"            "reported"           "represents"        
+ [77] "services"           "benefits"           "client"             "deposits"          
+ [81] "impact"             "include"            "loans"              "lower"             
+ [85] "offset"             "rates"              "leases"             "board"             
+ [89] "due"                "page"               "includes"           "time"              
+ [93] "note"               "within"             "book"               "companies"         
+ [97] "operational"        "sustainable"        "three"              "average"           
+[101] "first"              "prior"              "service"            "businesses"        
+[105] "chief"              "commercial"         "increase"           "investments"       
+[109] "lending"            "loan"               "result"             "current"           
+[113] "gains"              "addition"           "balances"           "benefit"           
+[117] "held"               "help"               "million"            "payments"          
+[121] "use"                "value"              "deposit"            "needs"             
+[125] "sales"              "transactions"       "range"              "industry"          
+[129] "merrill"            "fees"               "framework"          "investment"        
+[133] "additional"         "days"               "trading"            "asset"             
+[137] "credit"             "equity"             "higher"             "losses"            
+[141] "minimum"            "portfolios"         "quality"            "ratio"             
+[145] "tier"               "return"             "upon"               "internal"          
+[149] "price"              "plan"               "information"        "corporate"         
+[153] "past"               "employees"          "support"            "approximately"     
+[157] "compensation"       "recognized"         "equal"              "provide"           
+[161] "values"             "less"               "level"              "significant"       
+[165] "financing"          "activities"         "corporation"        "executive"         
+[169] "senior"             "longterm"           "may"                "presented"         
+[173] "strategic"          "direct"             "material"           "matters"           
+[177] "meet"               "provides"           "statement"          "derivatives"       
+[181] "fair"               "following"          "agreements"         "driven"            
+[185] "control"            "factors"            "measures"           "approach"          
+[189] "based"              "assets"             "shareholders\u0092" "tangible"          
+[193] "data"               "ratios"             "life"               "future"            
+[197] "model"              "interest"           "series"             "estimated"         
+[201] "debt"               "federal"            "amount"             "balance"           
+[205] "sheet"              "operations"         "changes"            "plans"             
+[209] "accounting"         "account"            "options"            "models"            
+[213] "reporting"          "generally"          "home"               "position"          
+[217] "subject"            "using"              "expected"           "greater"           
+[221] "revenue"            "cash"               "key"                "used"              
+[225] "date"               "rate"               "card"               "mortgage"          
+[229] "securities"         "payment"            "committee"          "various"           
+[233] "purchased"          "part"               "portfolio"          "tax"               
+[237] "period"             "percent"            "exposure"           "exchange"          
+[241] "december"           "decreased"          "similar"            "presents"          
+[245] "risks"              "estate"             "real"               "commitments"       
+[249] "subsidiaries"       "millions"           "corporation\u0092s" "table"             
+[253] "segment"            "contractual"        "obligations"        "nonus"             
+[257] "provision"          "allowance"          "assumptions"        "certain"           
+[261] "conditions"         "historical"         "statements"         "chargeoffs"        
+[265] "currency"           "exposures"          "liabilities"        "liability"         
+[269] "loss"               "potential"          "ratings"            "recorded"          
+[273] "regulatory"         "repurchase"         "requirements"       "reserve"           
+[277] "amounts"            "consolidated"       "notes"              "primarily"         
+[281] "principal"          "trust"              "accounted"          "january"           
+[285] "contracts"          "instruments"        "entities"           "procedures"        
+[289] "alm"                "dollars"            "applicable"         "compared"          
+[293] "decrease"           "basis"              "flows"              "pricing"           
+[297] "funds"              "sold"               "lease"              "borrowings"        
+[301] "shortterm"          "collateral"         "agency"             "positions"         
+[305] "residential"        "valuation"          "excluding"          "deferred"          
+[309] "goodwill"           "percentage"         "foreclosed"         "nonperforming"     
+[313] "properties"         "unfunded"           "option"             "adjustments"       
+[317] "respectively"       "allocated"          "gross"              "classified"        
+[321] "foreign"            "derivative"         "substantially"      "swaps"             
+[325] "pension"            "vies"               "hedges"             "counterparty"      
+[329] "flow"               "limits"             "estimate"           "default"           
+[333] "carried"            "status"             "tdrs"               "carrying"          
+[337] "var"                "discounted"         "impaired"           "afs"               
+[341] "inputs"             "accrued"           
+
+> findAssocs(dtm, terms = "credit", corlimit = 0.3)
+$credit
+        card    portfolio       losses   protection       funded      quality    exposures 
+        0.39         0.36         0.34         0.34         0.34         0.33         0.33 
+counterparty         loan    allowance      letters         risk     unfunded 
+        0.33         0.32         0.31         0.31         0.30         0.30 
+
+
+> findAssocs(dtm, terms = "ethics", corlimit = 0.3)
+$ethics
+numeric(0)
+
+> findAssocs(dtm, terms = "ethical", corlimit = 0.2)
+$ethical
+numeric(0)
+
+> findAssocs(dtm, terms = "ethics", corlimit = 0.1)
+$ethics
+numeric(0)
+
+> findAssocs(dtm, terms = "ethical", corlimit = 0.1)
+$ethical
+numeric(0)
