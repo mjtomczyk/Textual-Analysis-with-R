@@ -35,7 +35,7 @@ head(d, 20)
 
 # Generate Word Cloud
 set.seed(1234)
-png("wordcloud_packages.png", width=12,height=8, units='in', res=300)
+png("wordcloud_BoA2019.png", width=12,height=8, units='in', res=300)
 wordcloud(words = d$word, freq = d$freq, min.freq = 1,
           max.words=100, random.order=FALSE, rot.per=0.35, 
           colors=c("#0076A8", "#00A3E0", "#C4D600", "#43B02A", 
